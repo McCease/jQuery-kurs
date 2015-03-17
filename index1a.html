@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>01</title>
+	</head>
+	<body>
+		<div id="my-div" style="width:300px;height:300px;background:blue;">
+			<button id="my-button" style="margin:100px">Click me</button>
+		</div>
+		<script>
+		var myDiv = document.getElementById('my-div'),
+			myButton =  document.getElementById('my-button');
+		myButton.addEventListener('click',function(event){
+			alert('button click');
+			event.stopPropagation();
+		});
+		myDiv.addEventListener('click',function(){
+			alert('div click');
+		});
+		</script>
+	</body>
+</html>
+	
