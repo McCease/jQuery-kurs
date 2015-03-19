@@ -1,0 +1,13 @@
+body {
+    
+}
+#header{
+	background-color: #FF0000;
+	height: 100px;
+}
+.popup{
+	width: 200px;
+	height: 150px;
+	background-color: blue;
+	display:block;
+}

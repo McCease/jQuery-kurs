@@ -1,0 +1,45 @@
+body {
+
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans;
+
+}
+
+.paint-content {
+
+    float: left;
+
+    width: 500px;
+
+}
+
+.paint-tools {
+
+    float: left;
+
+    width: 200px;
+
+}
+
+.paint-tools select {
+
+    width: 100%;
+
+}
+
+.row {
+
+    overflow: hidden;
+
+}
+
+.row span {
+
+    float: left;
+
+    width: 20px;
+
+    height: 20px;
+
+    border: 1px solid #ddd;
+
+}
