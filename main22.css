@@ -1,0 +1,15 @@
+body {
+
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans;
+
+}
+
+.box{
+	border: 1px solid;
+	border-color: red;
+    float: left;
+	height: 200px;
+    width: 200px;
+	opacity: 0.0;
+
+}

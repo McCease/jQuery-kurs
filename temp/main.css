@@ -1,0 +1,11 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans;
+}
+.load-more {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
