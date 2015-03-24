@@ -1,0 +1,30 @@
+body {
+
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans;
+
+}
+
+#kino {
+
+    visibility: none;
+
+}
+
+#film {
+
+    visibility: none;
+
+}
+
+#bilet {
+
+    visibility: none;
+
+}
+
+#platnosc {
+
+    visibility: none;
+
+}
+

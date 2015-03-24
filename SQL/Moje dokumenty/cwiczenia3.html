@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularze</title>
+    <link rel="stylesheet" href="cwiczenia3.css">
+</head>
+<body>
+
+<div>
+
+    <select id="wybor_formularza">
+
+        <option value="Kino">Kino</option>
+
+        <option value="Film" >Film</option>
+
+        <option value="Bilet">Bilet</option>
+
+        <option value="Platnosc">Platnosc</option>
+
+    </select>
+</div>
+
+<br>
+
+<form id="kino"  method='post' action="cwiczenia3.php">
+    <fieldset>
+        <label for="new_name">Nazwa kina: </label>
+        <input type="text" value="" id="new_name" name="name">
+        <br>
+        <label for="new_address">Adres: </label>
+        <input type="text" value="" id="new_address" name="address">
+        <br>
+        <button type="submit" value="kino" name="btn">Dodaj</button>
+    </fieldset>
+</form>
+
+<form id="film" method='post' action="cwiczenia3.php">
+    <fieldset>
+        <label for="new_name">Nazwa filmu: </label>
+        <input type="text" value="" id="new_name" name="name">
+        <br>
+        <label for="new_opis">Opis: </label>
+        <input type="text" value="" id="new_opis" name="opis">
+        <br>
+        <label for="new_mark">Ocena: </label>
+        <input type="number" value="" id="new_mark" name="rating">
+        <br>
+        <button type="submit" value="film" name="btn">Dodaj</button>
+    </fieldset>
+</form>
+
+<form id="bilet"  method='post' action="cwiczenia3.php">
+    <fieldset>
+        <label for="new_number">Ilosc: </label>
+        <input type="number" value="" id="new_number" name="number">
+        <br>
+        <label for="new_price">Cena: </label>
+        <input type="number" value="" id="new_price" name="price">
+        <br>
+        <button type="submit" value="bilet" name="btn">Dodaj</button>
+    </fieldset>
+</form>
+
+<form id="platnosc"  method='post' action="cwiczenia3.php">
+    <fieldset>
+        <div id="wybor_platnosc">
+
+            <select name="type">
+
+                <option value="Przelew">Przelew</option>
+
+                <option value="Gotowka">Gotowka</option>
+
+                <option value="Karta">Karta</option>
+
+            </select>
+        </div>
+        <br>
+        <label for="new_date">Data: </label>
+        <input type="date" value="" id="new_date" name="date">
+        <br>
+        <button type="submit" value="platnosc" name="btn">Dodaj</button>
+    </fieldset>
+</form>
+
+
+
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="cwiczenia3.js"></script>
+</body>
+</html>
